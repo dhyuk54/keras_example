@@ -10,6 +10,7 @@ x_data = np.random.rand(100)
 noise = np.random.normal(0,0.01,x_data.shape)
 y_data = x_data * 0.1 + 0.2 + noise
 # 显示随机点
+
 plt.scatter(x_data,y_data)
 plt.show()
 # 构建一个顺序模型
